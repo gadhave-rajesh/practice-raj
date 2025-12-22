@@ -1,9 +1,12 @@
 The easiest way to create a virtual environment is to use the built-in venv module, which comes pre-installed with Python. 
 ## 1. The "Easy Way" (VS Code UI)
 If you are already in VS Code, you don't even need to type commands. 
-    Press Ctrl+Shift+P (Windows) **or** Cmd+Shift+P (macOS) to open the Command Palette.
-    Type and select Python: Create Environment.
+
+Press Ctrl+Shift+P (Windows) **or** Cmd+Shift+P (macOS) to open the Command Palette.
+
+Type and select Python: Create Environment.
     Choose Venv.
+
 Select your Python interpreter from the list. VS Code will automatically create a .venv folder and activate it for you. 
 
 ## 2. The "Standard Way" (Command Line)
