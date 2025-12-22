@@ -43,4 +43,5 @@ How to know it worked: You will see (.venv) appear in parentheses at the start o
 
 # Pro-Tips:
 **Naming:** It is best practice to name your folder .venv (with the dot) so that most tools (like VS Code and Git) recognize it automatically and ignore it.
+
 **Git:** Never upload your virtual environment folder to GitHub. Add .venv/ to your .gitignore file immediately. 
