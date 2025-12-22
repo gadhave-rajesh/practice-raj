@@ -8,12 +8,14 @@ Select your Python interpreter from the list. VS Code will automatically create 
 
 ## 2. The "Standard Way" (Command Line)
 Use these steps if you prefer the terminal. 
-    **Navigate to your folder:** 
-        Open CMD or PowerShell and cd into your project directory.
-    **Create the environment:**
-        Type the following command and press Enter.
-            cmd
-            python -m venv .venv
+
+**Navigate to your folder:** 
+Open CMD or PowerShell and cd into your project directory.
+
+**Create the environment:**
+Type the following command and press Enter.
+cmd
+python -m venv .venv
 
 Use code with caution.
 (This creates a folder named .venv containing your isolated Python interpreter.)
