@@ -8,7 +8,6 @@ Select your Python interpreter from the list. VS Code will automatically create 
 
 ## 2. The "Standard Way" (Command Line)
 Use these steps if you prefer the terminal. 
-  
 **Navigate to your folder:** Open CMD or PowerShell and cd into your project directory.
 **Create the environment:** Type the following command and press Enter.
     cmd
@@ -25,9 +24,9 @@ Use code with caution.
 How to know it worked: You will see (.venv) appear in parentheses at the start of your command prompt line. 
 
 ## 3. Key Commands Summary
-    **Install packages safely:** Once activated, use pip install [package_name] to keep them isolated inside this environment only.
-    **Exit the environment:** Simply type deactivate and press Enter to return to your global Python.
-   ** Delete the environment:** Just delete the .venv folder manually or via command line (e.g., rmdir /s /q .venv on Windows). 
+**Install packages safely:** Once activated, use pip install [package_name] to keep them isolated inside this environment only.
+**Exit the environment:** Simply type deactivate and press Enter to return to your global Python.
+**Delete the environment:** Just delete the .venv folder manually or via command line (e.g., rmdir /s /q .venv on Windows). 
 
 # Pro-Tips:
 **Naming:** It is best practice to name your folder .venv (with the dot) so that most tools (like VS Code and Git) recognize it automatically and ignore it.
