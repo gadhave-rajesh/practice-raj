@@ -7,10 +7,10 @@ If you are already in VS Code, you don't even need to type commands.
 Select your Python interpreter from the list. VS Code will automatically create a .venv folder and activate it for you. 
 
 ## 2. The "Standard Way" (Command Line)
-  Use these steps if you prefer the terminal. 
+Use these steps if you prefer the terminal. 
   
-  **Navigate to your folder:** Open CMD or PowerShell and cd into your project directory.
-  **Create the environment:** Type the following command and press Enter.
+**Navigate to your folder:** Open CMD or PowerShell and cd into your project directory.
+**Create the environment:** Type the following command and press Enter.
     cmd
     python -m venv .venv
 
