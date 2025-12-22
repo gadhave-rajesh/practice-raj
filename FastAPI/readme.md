@@ -19,18 +19,23 @@ It is best practice to use a virtual environment to keep your dependencies organ
 mkdir my_fastapi_app
 cd my_fastapi_app
 Use code with caution.
+```
 
 ### Step B: Create & Activate Virtual Environment
+```cmd
 Windows:
 cmd
 python -m venv venv
 venv\Scripts\activate
 Use code with caution.
+```
 
+```cmd
 Mac / Linux:
 bash
 python3 -m venv venv
 source venv/bin/activate
+```
 Use code with caution.
 
 ### Step C: Install Required Packages
@@ -48,19 +53,23 @@ Use code with caution.
 The server will typically start at http://127.0.0.1:8000.
 
 ## 4. Testing the API
+cmd
 - Method 1: Interactive Web Docs (Recommended)
-  Open Docs: Go to 127.0.0.1.
-  Select Endpoint: Click the POST /items route.
-  Try it out: Click the "Try it out" button.
-  Input Data: Enter a string (e.g., "Apple") in the request body.
-  Execute: Click the blue "Execute" button to see the result.
+    Open Docs: Go to 127.0.0.1.
+    Select Endpoint: Click the POST /items route.
+    Try it out: Click the "Try it out" button.
+    Input Data: Enter a string (e.g., "Apple") in the request body.
+    Execute: Click the blue "Execute" button to see the result.
+
+cmd
 - Method 2: Terminal (curl)
   Open a new terminal window while the server is running.
   Windows (cmd):
   cmd
   curl -X POST "127.0.0.1" -H "Content-Type: application/json" -d "\"My Item\""
   Use code with caution.
-  
+
+cmd
 Mac / Linux (bash):
 bash
 curl -X POST "127.0.0.1" \
@@ -69,11 +78,13 @@ curl -X POST "127.0.0.1" \
 Use code with caution.
 
 5. Summary of curl Flags
-Flag	Name	Purpose
--X POST	Method	Tells the server you want to "Create/Send" data.
--H	Header	Informs the server that the data is in JSON format.
--d	Data	The actual content you are sending to the API.
-6. Verify Results
+cmd
+  Flag	Name	Purpose
+  -X POST	Method	Tells the server you want to "Create/Send" data.
+  -H	Header	Informs the server that the data is in JSON format.
+  -d	Data	The actual content you are sending to the API.
+
+7. Verify Results
 Check the current list of items at any time by visiting:
 127.0.0.1
 {content: }
