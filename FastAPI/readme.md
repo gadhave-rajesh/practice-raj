@@ -1,8 +1,17 @@
 To create a complete beginner-friendly guide, save the following content as FASTAPI_SETUP.md. This includes the prerequisites, installation steps for 2025, and the testing instructions.
 markdown
-# FastAPI Beginner's Guide (2025 Edition)
 
-This guide covers everything from setting up your environment to testing your first API.
+# FastAPI Beginner's Guide 
+Below is git resource with working demos
+
+**Cookbook PDF :**
+http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202025%20-%20D/CSE%20%20IT%20AIDS%20ML/Packt.FastAPI.Cookbook.pdf
+
+**Git resources:**
+https://github.com/PacktPublishing/FastAPI-Cookbook
+
+
+This pre-requistites guide covers everything from setting up your environment to testing your first API.
 
 ## 1. Prerequisites
 Before starting, ensure you have the following installed on your system:
