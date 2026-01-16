@@ -1,29 +1,30 @@
-# Recursion problems
+# Recursion Problems
 
 ### 1. Factorial of a Number
-Calculate the product of all integers from 1 up to \(n\).
+Calculate the product of all integers from 1 up to $n$.
 
-Base Case: If \(n=0\) or \(1\), return \(1\).
+**Base Case:** If $n=0$ or $n=1$, return $1$.  
+**Recursive Case:** $n \times \text{factorial}(n-1)$
 
-Recursive Case: \(n\times \text{factorial}(n-1)\)
-
- def factorial(n):
+```python
+def factorial(n):
     if n == 0 or n == 1:
         return 1
     return n * factorial(n - 1)
 
--- Answer for factorial(5): 120
 
 ### 2. Fibonacci Sequence
 
-Find the \(n^{th}\) number in the sequence where each number is the sum of the two preceding ones.
-Base Case: If \(n\le 1\), return \(n\).
-Recursive Case: \(\text{fibonacci}(n-1)+\text{fibonacci}(n-2)\).
+Find the \(n\)th number in the sequence where each number is the sum of the two preceding ones.
 
+Base Case: If (n<=1), return (n).
+Recursive Case: (fibonacci(n-1)+fibonacci(n-2)) 
+
+```python
 def fibonacci(n):
     if n <= 1:
         return n
-    return fibonacci(n - 1) +    fibonacci(n - 2)
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
 -- Answer for fibonacci(7): 13
 
