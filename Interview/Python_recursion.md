@@ -2,7 +2,9 @@
 
 ### 1. Factorial of a Number
 Calculate the product of all integers from 1 up to \(n\).
+
 Base Case: If \(n=0\) or \(1\), return \(1\).
+
 Recursive Case: \(n\times \text{factorial}(n-1)\)
 
  def factorial(n):
@@ -37,8 +39,6 @@ def sum_list(numbers):
         return 0
     return numbers[0] + sum_list(numbers[1:])
 
-# Answer for sum_list([1, 2, 3, 4, 5]): 15
-
 
 -- Answer for sum_list([1, 2, 3, 4, 5]): 15
 
@@ -68,6 +68,34 @@ def gcd(a, b):
     return gcd(b, a % b)
 
 -- Answer for gcd(48, 18): 6
+
+### 5. Recursion printer for string
+
+Base Case: If the string is empty, the function returns and stops.
+
+Recursive Case: Print the character at the current index (usually index 0) and then call the function again with a sliced version of the string starting from the next index. 
+
+def print_letters(s):
+    # Base Case: stop if string is empty
+    if not s:
+        return
+    
+    # Print the first letter
+    print(s[0])
+    
+    # Recursive Case: call with the rest of the string
+    print_letters(s[1:])
+
+Example Usage:
+print_letters("Python")
+Output:
+P
+y
+t
+h
+o
+n
+
 
  ## Key Considerations Recursion Depth: 
 
