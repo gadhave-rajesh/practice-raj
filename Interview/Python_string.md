@@ -146,3 +146,4 @@ This guide provides dual solutions for common Python string interview questions:
 1.  **Complexity Matters:** Always mention that `s.count()` inside a loop makes an algorithm **O(n²)**. The dictionary approach is **O(n)**.
 2.  **Immutability:** Remember that strings in Python are immutable; "modifying" a string always creates a new one in memory.
 3.  **Practice:** Use the [Official Python String Documentation](https://docs.python.org) to stay updated on new methods.
+4.  **Practice:** GeeksforGeeks String Exercises: A comprehensive collection of 50+ practice problems. - https://www.geeksforgeeks.org/python/python-string-exercise/
