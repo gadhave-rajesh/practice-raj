@@ -42,6 +42,7 @@ How to know it worked: You will see (.venv) appear in parentheses at the start o
     Just delete the .venv folder manually or via command line (e.g., rmdir /s /q .venv on Windows). 
 
 # Pro-Tips:
+**Follow Link** - https://python.land/virtual-environments/virtualenv#Why_you_need_virtual_environments
 **Naming:** It is best practice to name your folder .venv (with the dot) so that most tools (like VS Code and Git) recognize it automatically and ignore it.
 
 **Git:** Never upload your virtual environment folder to GitHub. Add .venv/ to your .gitignore file immediately. 
