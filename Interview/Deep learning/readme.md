@@ -9,3 +9,6 @@ https://theaisummer.com/vision-transformer/
 
 # Pandas Trick and tips
 https://github.com/youssefHosni/Efficient-Python-for-Data-Scientists-Book
+
+# Types of LLMs
+https://labelyourdata.com/articles/types-of-llms
