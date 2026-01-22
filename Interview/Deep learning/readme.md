@@ -5,3 +5,7 @@ https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/ma
 
 # Vision Transformer Deep Dive
 https://theaisummer.com/vision-transformer/
+
+
+# Pandas Trick and tips
+https://github.com/youssefHosni/Efficient-Python-for-Data-Scientists-Book
