@@ -56,6 +56,7 @@ Open a new terminal tab, activate your venv, and run the script to authenticate 
 ```
 
 🔒 Security Implementation
+
 **1. Aadhar Encryption (Data at Rest & Transit)**
 Standard: Uses Cryptography.io Fernet (Symmetric encryption).
 Process: The aadhar_number column is encrypted immediately upon upload. The API response contains only the encrypted strings, ensuring sensitive data is never exposed in plain text.
