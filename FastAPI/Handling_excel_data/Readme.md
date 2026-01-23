@@ -3,40 +3,6 @@
 -- To build a modular FastAPI application that securely handles Excel data, you can use Pandas for data processing and Cryptography (Fernet) for encryption. 
 -- Following 2026 industry standards, sensitive identifiers like Aadhar numbers must be stored in encrypted format to prevent unauthorized exposure.
 
-### Prerequisites
-Install necessary libraries:
-pip install fastapi uvicorn pandas openpyxl cryptography requests python-multipart
-
-🚀 FastAPI Secure Excel Processor (2026 Edition)
-This project is a production-ready, modular FastAPI application designed to process Excel files securely. It implements 2026 Industry Best Practices for data privacy and security, including Fernet Encryption for Aadhar numbers, Bcrypt Hashing for passwords, and OAuth2 with JWT Refresh Tokens.
-📂 Project Structure
-    project/
-    ├── main.py          # FastAPI application & API endpoints
-    ├── security.py      # Fernet Encryption & Bcrypt Password Hashing logic
-    ├── auth_logic.py    # JWT Generation & Refresh Token logic
-    ├── client.py        # Python script to authenticate and fetch/decrypt data
-    ├── requirements.txt # List of dependencies
-    └── data.xlsx        # Your input Excel file
-
-⚙️ Setup & Installation
-1. Create a Virtual Environment (venv)
-A virtual environment isolates your project dependencies.
-Windows:
-bash
-python -m venv venv
-venv\Scripts\activate
-Use code with caution.
-
-macOS/Linux:
-bash
-python3 -m venv venv
-source venv/bin/activate
-Use code with caution.
-
-2. Install Required Libraries
-bash
-pip install fastapi uvicorn pandas openpyxl cryptography requests python-multipart python-jose[cryptography] passlib[bcrypt]
-Use code with caution.
 
 # 🚀 FastAPI Secure Excel Processor (2026 Edition)
 
